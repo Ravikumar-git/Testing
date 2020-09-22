@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="14" total="14" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="36056" started-at="2020-09-22T09:42:43Z" finished-at="2020-09-22T09:43:19Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="36056" started-at="2020-09-22T09:42:43Z" finished-at="2020-09-22T09:43:19Z">
+      <class name="vodafone.scripts.AppSettingsTestCase">
+        <test-method status="FAIL" signature="AppSettings()[pri:0, instance:vodafone.scripts.AppSettingsTestCase@6d00a15d]" name="AppSettings" duration-ms="4" started-at="2020-09-22T15:13:19Z" finished-at="2020-09-22T15:13:19Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Can not set static io.appium.java_client.android.AndroidElement field objectRepositary.AppSettings_OR.PrintText to org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Can not set static io.appium.java_client.android.AndroidElement field objectRepositary.AppSettings_OR.PrintText to org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source)
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source)
+	at sun.reflect.UnsafeStaticObjectFieldAccessorImpl.set(Unknown Source)
+	at java.lang.reflect.Field.set(Unknown Source)
+	at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:117)
+	at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:105)
+	at objectRepositary.AppSettings_OR.<init>(AppSettings_OR.java:14)
+	at vodafone.pages.AppSettings.<init>(AppSettings.java:18)
+	at vodafone.scripts.AppSettingsTestCase.AppSettings(AppSettingsTestCase.java:15)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AppSettings -->
+      </class> <!-- vodafone.scripts.AppSettingsTestCase -->
+      <class name="vodafone.scripts.HelpPageTestCase">
+        <test-method status="FAIL" signature="HelpPage()[pri:0, instance:vodafone.scripts.HelpPageTestCase@51efea79]" name="HelpPage" duration-ms="2" started-at="2020-09-22T15:13:19Z" finished-at="2020-09-22T15:13:19Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Can not set static io.appium.java_client.android.AndroidElement field objectRepositary.HelpPage_OR.clickHambergerMenu to org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Can not set static io.appium.java_client.android.AndroidElement field objectRepositary.HelpPage_OR.clickHambergerMenu to org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source)
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source)
+	at sun.reflect.UnsafeStaticObjectFieldAccessorImpl.set(Unknown Source)
+	at java.lang.reflect.Field.set(Unknown Source)
+	at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:117)
+	at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:105)
+	at objectRepositary.HelpPage_OR.<init>(HelpPage_OR.java:13)
+	at vodafone.pages.HelpPage.<init>(HelpPage.java:24)
+	at vodafone.scripts.HelpPageTestCase.HelpPage(HelpPageTestCase.java:16)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HelpPage -->
+      </class> <!-- vodafone.scripts.HelpPageTestCase -->
+      <class name="vodafone.scripts.MoviesFilterTestCase">
+        <test-method status="FAIL" signature="MovieFilter()[pri:0, instance:vodafone.scripts.MoviesFilterTestCase@36d4b5c]" name="MovieFilter" duration-ms="5" started-at="2020-09-22T15:13:19Z" finished-at="2020-09-22T15:13:19Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Can not set static io.appium.java_client.android.AndroidElement field objectRepositary.MoviesFilter_OR.clickMovies to org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Can not set static io.appium.java_client.android.AndroidElement field objectRepositary.MoviesFilter_OR.clickMovies to org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source)
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source)
+	at sun.reflect.UnsafeStaticObjectFieldAccessorImpl.set(Unknown Source)
+	at java.lang.reflect.Field.set(Unknown Source)
+	at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:117)
+	at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:105)
+	at objectRepositary.MoviesFilter_OR.<init>(MoviesFilter_OR.java:17)
+	at vodafone.pages.MoviesFilterPage.<init>(MoviesFilterPage.java:25)
+	at vodafone.scripts.MoviesFilterTestCase.MovieFilter(MoviesFilterTestCase.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MovieFilter -->
+      </class> <!-- vodafone.scripts.MoviesFilterTestCase -->
+      <class name="vodafone.scripts.MyDevicesTestCase">
+        <test-method status="FAIL" signature="MyDevicesPage()[pri:0, instance:vodafone.scripts.MyDevicesTestCase@5034c75a]" name="MyDevicesPage" duration-ms="2" started-at="2020-09-22T15:13:19Z" finished-at="2020-09-22T15:13:19Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Can not set static io.appium.java_client.android.AndroidElement field objectRepositary.MyDevices_OR.clickHambergerMenu to org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Can not set static io.appium.java_client.android.AndroidElement field objectRepositary.MyDevices_OR.clickHambergerMenu to org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source)
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source)
+	at sun.reflect.UnsafeStaticObjectFieldAccessorImpl.set(Unknown Source)
+	at java.lang.reflect.Field.set(Unknown Source)
+	at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:117)
+	at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:105)
+	at objectRepositary.MyDevices_OR.<init>(MyDevices_OR.java:13)
+	at vodafone.pages.MyDevicesPage.<init>(MyDevicesPage.java:23)
+	at vodafone.scripts.MyDevicesTestCase.MyDevicesPage(MyDevicesTestCase.java:16)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyDevicesPage -->
+      </class> <!-- vodafone.scripts.MyDevicesTestCase -->
+      <class name="vodafone.scripts.FullScreenTestCase">
+        <test-method status="FAIL" signature="FullScreenPage()[pri:0, instance:vodafone.scripts.FullScreenTestCase@6cc4c815]" name="FullScreenPage" duration-ms="2" started-at="2020-09-22T15:13:19Z" finished-at="2020-09-22T15:13:19Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Can not set static io.appium.java_client.android.AndroidElement field objectRepositary.FullScreen_OR.PartnerName to org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Can not set static io.appium.java_client.android.AndroidElement field objectRepositary.FullScreen_OR.PartnerName to org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source)
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source)
+	at sun.reflect.UnsafeStaticObjectFieldAccessorImpl.set(Unknown Source)
+	at java.lang.reflect.Field.set(Unknown Source)
+	at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:117)
+	at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:105)
+	at objectRepositary.FullScreen_OR.<init>(FullScreen_OR.java:15)
+	at vodafone.pages.FullScreenPage.<init>(FullScreenPage.java:25)
+	at vodafone.scripts.FullScreenTestCase.FullScreenPage(FullScreenTestCase.java:15)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FullScreenPage -->
+      </class> <!-- vodafone.scripts.FullScreenTestCase -->
+      <class name="vodafone.scripts.BannersScrollingTestCase">
+        <test-method status="FAIL" signature="BannerscrollingPage()[pri:0, instance:vodafone.scripts.BannersScrollingTestCase@56f4468b]" name="BannerscrollingPage" duration-ms="88" started-at="2020-09-22T15:13:19Z" finished-at="2020-09-22T15:13:19Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Can not set static io.appium.java_client.android.AndroidElement field objectRepositary.BannersScrolling_OR.Bannerchange to org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Can not set static io.appium.java_client.android.AndroidElement field objectRepositary.BannersScrolling_OR.Bannerchange to org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source)
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source)
+	at sun.reflect.UnsafeStaticObjectFieldAccessorImpl.set(Unknown Source)
+	at java.lang.reflect.Field.set(Unknown Source)
+	at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:117)
+	at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:105)
+	at objectRepositary.BannersScrolling_OR.<init>(BannersScrolling_OR.java:13)
+	at vodafone.pages.BannersScrollingpage.<init>(BannersScrollingpage.java:19)
+	at vodafone.scripts.BannersScrollingTestCase.BannerscrollingPage(BannersScrollingTestCase.java:16)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BannerscrollingPage -->
+      </class> <!-- vodafone.scripts.BannersScrollingTestCase -->
+      <class name="vodafone.scripts.CPiconTestCase">
+        <test-method status="FAIL" signature="CPicon()[pri:0, instance:vodafone.scripts.CPiconTestCase@51081592]" name="CPicon" duration-ms="1" started-at="2020-09-22T15:13:19Z" finished-at="2020-09-22T15:13:19Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Can not set static io.appium.java_client.android.AndroidElement field objectRepositary.CPicons_OR.clickHambergerMenu to org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Can not set static io.appium.java_client.android.AndroidElement field objectRepositary.CPicons_OR.clickHambergerMenu to org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source)
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source)
+	at sun.reflect.UnsafeStaticObjectFieldAccessorImpl.set(Unknown Source)
+	at java.lang.reflect.Field.set(Unknown Source)
+	at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:117)
+	at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:105)
+	at objectRepositary.CPicons_OR.<init>(CPicons_OR.java:16)
+	at vodafone.pages.CPiconsPage1.<init>(CPiconsPage1.java:26)
+	at vodafone.scripts.CPiconTestCase.CPicon(CPiconTestCase.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CPicon -->
+      </class> <!-- vodafone.scripts.CPiconTestCase -->
+      <class name="vodafone.scripts.SearchTestCase">
+        <test-method status="FAIL" signature="Search()[pri:0, instance:vodafone.scripts.SearchTestCase@100fc185]" name="Search" duration-ms="22" started-at="2020-09-22T15:13:19Z" finished-at="2020-09-22T15:13:19Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Can not set static io.appium.java_client.android.AndroidElement field objectRepositary.Search_OR.searchIcon to org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Can not set static io.appium.java_client.android.AndroidElement field objectRepositary.Search_OR.searchIcon to org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source)
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source)
+	at sun.reflect.UnsafeStaticObjectFieldAccessorImpl.set(Unknown Source)
+	at java.lang.reflect.Field.set(Unknown Source)
+	at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:117)
+	at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:105)
+	at objectRepositary.Search_OR.<init>(Search_OR.java:16)
+	at vodafone.pages.SearchPage.<init>(SearchPage.java:28)
+	at vodafone.scripts.SearchTestCase.Search(SearchTestCase.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search -->
+      </class> <!-- vodafone.scripts.SearchTestCase -->
+      <class name="vodafone.scripts.CLanguageTestCase">
+        <test-method status="FAIL" signature="CLanguagePage()[pri:0, instance:vodafone.scripts.CLanguageTestCase@396a51ab]" name="CLanguagePage" duration-ms="1" started-at="2020-09-22T15:13:19Z" finished-at="2020-09-22T15:13:19Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Can not set static io.appium.java_client.android.AndroidElement field objectRepositary.ContentLanguages_OR.HambergerMenu to org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Can not set static io.appium.java_client.android.AndroidElement field objectRepositary.ContentLanguages_OR.HambergerMenu to org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source)
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source)
+	at sun.reflect.UnsafeStaticObjectFieldAccessorImpl.set(Unknown Source)
+	at java.lang.reflect.Field.set(Unknown Source)
+	at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:117)
+	at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:105)
+	at objectRepositary.ContentLanguages_OR.<init>(ContentLanguages_OR.java:15)
+	at vodafone.pages.CLanguagePage.<init>(CLanguagePage.java:29)
+	at vodafone.scripts.CLanguageTestCase.CLanguagePage(CLanguageTestCase.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CLanguagePage -->
+      </class> <!-- vodafone.scripts.CLanguageTestCase -->
+      <class name="vodafone.scripts.MyWatchlistTestCase">
+        <test-method status="FAIL" signature="Mywatchlist()[pri:0, instance:vodafone.scripts.MyWatchlistTestCase@643b1d11]" name="Mywatchlist" duration-ms="2" started-at="2020-09-22T15:13:19Z" finished-at="2020-09-22T15:13:19Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Can not set static io.appium.java_client.android.AndroidElement field objectRepositary.MyWatchlistAddingRemoving_OR.clickMoviestab to org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Can not set static io.appium.java_client.android.AndroidElement field objectRepositary.MyWatchlistAddingRemoving_OR.clickMoviestab to org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source)
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source)
+	at sun.reflect.UnsafeStaticObjectFieldAccessorImpl.set(Unknown Source)
+	at java.lang.reflect.Field.set(Unknown Source)
+	at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:117)
+	at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:105)
+	at objectRepositary.MyWatchlistAddingRemoving_OR.<init>(MyWatchlistAddingRemoving_OR.java:16)
+	at vodafone.pages.MywatchlistPage.<init>(MywatchlistPage.java:25)
+	at vodafone.scripts.MyWatchlistTestCase.Mywatchlist(MyWatchlistTestCase.java:16)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mywatchlist -->
+      </class> <!-- vodafone.scripts.MyWatchlistTestCase -->
+      <class name="vodafone.scripts.BitratesTestCase">
+        <test-method status="FAIL" signature="BitratePage()[pri:0, instance:vodafone.scripts.BitratesTestCase@3a82f6ef]" name="BitratePage" duration-ms="1" started-at="2020-09-22T15:13:19Z" finished-at="2020-09-22T15:13:19Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Can not set static io.appium.java_client.android.AndroidElement field objectRepositary.Bitrates_OR.downarrow to org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Can not set static io.appium.java_client.android.AndroidElement field objectRepositary.Bitrates_OR.downarrow to org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source)
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source)
+	at sun.reflect.UnsafeStaticObjectFieldAccessorImpl.set(Unknown Source)
+	at java.lang.reflect.Field.set(Unknown Source)
+	at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:117)
+	at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:105)
+	at objectRepositary.Bitrates_OR.<init>(Bitrates_OR.java:16)
+	at vodafone.pages.BitratePage.<init>(BitratePage.java:21)
+	at vodafone.scripts.BitratesTestCase.BitratePage(BitratesTestCase.java:16)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BitratePage -->
+      </class> <!-- vodafone.scripts.BitratesTestCase -->
+      <class name="vodafone.scripts.ExitappTestCase">
+        <test-method status="FAIL" signature="Exitapp()[pri:0, instance:vodafone.scripts.ExitappTestCase@7f9a81e8]" name="Exitapp" duration-ms="36" started-at="2020-09-22T15:13:19Z" finished-at="2020-09-22T15:13:19Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Can not set static io.appium.java_client.android.AndroidElement field objectRepositary.ExitApp_OR.Exitpopupheading to org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Can not set static io.appium.java_client.android.AndroidElement field objectRepositary.ExitApp_OR.Exitpopupheading to org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source)
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source)
+	at sun.reflect.UnsafeStaticObjectFieldAccessorImpl.set(Unknown Source)
+	at java.lang.reflect.Field.set(Unknown Source)
+	at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:117)
+	at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:105)
+	at objectRepositary.ExitApp_OR.<init>(ExitApp_OR.java:13)
+	at vodafone.pages.ExitappPage.<init>(ExitappPage.java:27)
+	at vodafone.scripts.ExitappTestCase.Exitapp(ExitappTestCase.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Exitapp -->
+      </class> <!-- vodafone.scripts.ExitappTestCase -->
+      <class name="vodafone.scripts.DownloadTestCase">
+        <test-method status="FAIL" signature="DownloadPage()[pri:0, instance:vodafone.scripts.DownloadTestCase@2ef5e5e3]" name="DownloadPage" duration-ms="36" started-at="2020-09-22T15:13:19Z" finished-at="2020-09-22T15:13:19Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Can not set static io.appium.java_client.android.AndroidElement field objectRepositary.Download_OR.clickMovies to org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Can not set static io.appium.java_client.android.AndroidElement field objectRepositary.Download_OR.clickMovies to org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source)
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source)
+	at sun.reflect.UnsafeStaticObjectFieldAccessorImpl.set(Unknown Source)
+	at java.lang.reflect.Field.set(Unknown Source)
+	at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:117)
+	at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:105)
+	at vodafone.pages.DownloadPage.<init>(DownloadPage.java:20)
+	at vodafone.scripts.DownloadTestCase.DownloadPage(DownloadTestCase.java:13)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DownloadPage -->
+      </class> <!-- vodafone.scripts.DownloadTestCase -->
+      <class name="vodafone.scripts.launchApptestcase">
+        <test-method status="FAIL" signature="Applunch()[pri:0, instance:vodafone.scripts.launchApptestcase@5dfcfece]" name="Applunch" duration-ms="35827" started-at="2020-09-22T15:12:43Z" finished-at="2020-09-22T15:13:19Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[It is impossible to create a new session because 'createSession' which takes HttpClient, InputStream and long was not found or it is not accessible
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-QRMDR1F', ip: '192.168.43.208', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: AndroidDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: It is impossible to create a new session because 'createSession' which takes HttpClient, InputStream and long was not found or it is not accessible
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-QRMDR1F', ip: '192.168.43.208', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:195)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:209)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:38)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:84)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:94)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:93)
+	at vodafone.pages.Applaunch.startAppiumServer(Applaunch.java:96)
+	at vodafone.scripts.launchApptestcase.Applunch(launchApptestcase.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:185)
+	... 38 more
+Caused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'D:\\Android\\platform-tools\\adb.exe -P 5037 -s 42009305d320a4a5 shell pm install -r /data/local/tmp/appium_cache/0cc1725a60a05dbb5d0d09256f2fc6ece7e3b10f.apk' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'uiautomator2ServerInstallTimeout' capability
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-QRMDR1F', ip: '192.168.43.208', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'D:\\Android\\platform-tools\\adb.exe -P 5037 -s 42009305d320a4a5 shell pm install -r /data/local/tmp/appium_cache/0cc1725a60a05dbb5d0d09256f2fc6ece7e3b10f.apk' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'uiautomator2ServerInstallTimeout' capability
+    at getResponseForW3CError (C:\Users\Apalya\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:826:9)
+    at asyncHandler (C:\Users\Apalya\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:388:37)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
+	... 43 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Applunch -->
+      </class> <!-- vodafone.scripts.launchApptestcase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

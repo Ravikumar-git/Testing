@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 14 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>D:\eclipse-workspace\Vfplay_WFH\src\test\java\testNg.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">14 methods, 14 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="vodafone.scripts.AppSettingsTestCase" hash-for-method="AppSettings">AppSettings</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="vodafone.scripts.launchApptestcase" hash-for-method="Applunch">Applunch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="vodafone.scripts.BannersScrollingTestCase" hash-for-method="BannerscrollingPage">BannerscrollingPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="vodafone.scripts.BitratesTestCase" hash-for-method="BitratePage">BitratePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="vodafone.scripts.CLanguageTestCase" hash-for-method="CLanguagePage">CLanguagePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="vodafone.scripts.CPiconTestCase" hash-for-method="CPicon">CPicon</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="vodafone.scripts.DownloadTestCase" hash-for-method="DownloadPage">DownloadPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="vodafone.scripts.ExitappTestCase" hash-for-method="Exitapp">Exitapp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="vodafone.scripts.FullScreenTestCase" hash-for-method="FullScreenPage">FullScreenPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="vodafone.scripts.HelpPageTestCase" hash-for-method="HelpPage">HelpPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="vodafone.scripts.MoviesFilterTestCase" hash-for-method="MovieFilter">MovieFilter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="vodafone.scripts.MyDevicesTestCase" hash-for-method="MyDevicesPage">MyDevicesPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="vodafone.scripts.MyWatchlistTestCase" hash-for-method="Mywatchlist">Mywatchlist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="vodafone.scripts.SearchTestCase" hash-for-method="Search">Search</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">vodafone.scripts.FullScreenTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="FullScreenPage">
+                  </a> <!-- FullScreenPage -->
+                  <span class="method-name">FullScreenPage</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Can not set static io.appium.java_client.android.AndroidElement field objectRepositary.FullScreen_OR.PartnerName to org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4
+	at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:117)
+	at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:105)
+	at objectRepositary.FullScreen_OR.&lt;init&gt;(FullScreen_OR.java:15)
+	at vodafone.pages.FullScreenPage.&lt;init&gt;(FullScreenPage.java:25)
+	at vodafone.scripts.FullScreenTestCase.FullScreenPage(FullScreenTestCase.java:15)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">vodafone.scripts.DownloadTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DownloadPage">
+                  </a> <!-- DownloadPage -->
+                  <span class="method-name">DownloadPage</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Can not set static io.appium.java_client.android.AndroidElement field objectRepositary.Download_OR.clickMovies to org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4
+	at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:117)
+	at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:105)
+	at vodafone.pages.DownloadPage.&lt;init&gt;(DownloadPage.java:20)
+	at vodafone.scripts.DownloadTestCase.DownloadPage(DownloadTestCase.java:13)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">vodafone.scripts.BitratesTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="BitratePage">
+                  </a> <!-- BitratePage -->
+                  <span class="method-name">BitratePage</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Can not set static io.appium.java_client.android.AndroidElement field objectRepositary.Bitrates_OR.downarrow to org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4
+	at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:117)
+	at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:105)
+	at objectRepositary.Bitrates_OR.&lt;init&gt;(Bitrates_OR.java:16)
+	at vodafone.pages.BitratePage.&lt;init&gt;(BitratePage.java:21)
+	at vodafone.scripts.BitratesTestCase.BitratePage(BitratesTestCase.java:16)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">vodafone.scripts.AppSettingsTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AppSettings">
+                  </a> <!-- AppSettings -->
+                  <span class="method-name">AppSettings</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Can not set static io.appium.java_client.android.AndroidElement field objectRepositary.AppSettings_OR.PrintText to org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4
+	at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:117)
+	at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:105)
+	at objectRepositary.AppSettings_OR.&lt;init&gt;(AppSettings_OR.java:14)
+	at vodafone.pages.AppSettings.&lt;init&gt;(AppSettings.java:18)
+	at vodafone.scripts.AppSettingsTestCase.AppSettings(AppSettingsTestCase.java:15)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">vodafone.scripts.MyDevicesTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="MyDevicesPage">
+                  </a> <!-- MyDevicesPage -->
+                  <span class="method-name">MyDevicesPage</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Can not set static io.appium.java_client.android.AndroidElement field objectRepositary.MyDevices_OR.clickHambergerMenu to org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4
+	at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:117)
+	at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:105)
+	at objectRepositary.MyDevices_OR.&lt;init&gt;(MyDevices_OR.java:13)
+	at vodafone.pages.MyDevicesPage.&lt;init&gt;(MyDevicesPage.java:23)
+	at vodafone.scripts.MyDevicesTestCase.MyDevicesPage(MyDevicesTestCase.java:16)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">vodafone.scripts.MoviesFilterTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="MovieFilter">
+                  </a> <!-- MovieFilter -->
+                  <span class="method-name">MovieFilter</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Can not set static io.appium.java_client.android.AndroidElement field objectRepositary.MoviesFilter_OR.clickMovies to org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4
+	at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:117)
+	at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:105)
+	at objectRepositary.MoviesFilter_OR.&lt;init&gt;(MoviesFilter_OR.java:17)
+	at vodafone.pages.MoviesFilterPage.&lt;init&gt;(MoviesFilterPage.java:25)
+	at vodafone.scripts.MoviesFilterTestCase.MovieFilter(MoviesFilterTestCase.java:14)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">vodafone.scripts.SearchTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Search">
+                  </a> <!-- Search -->
+                  <span class="method-name">Search</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Can not set static io.appium.java_client.android.AndroidElement field objectRepositary.Search_OR.searchIcon to org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4
+	at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:117)
+	at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:105)
+	at objectRepositary.Search_OR.&lt;init&gt;(Search_OR.java:16)
+	at vodafone.pages.SearchPage.&lt;init&gt;(SearchPage.java:28)
+	at vodafone.scripts.SearchTestCase.Search(SearchTestCase.java:19)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">vodafone.scripts.BannersScrollingTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="BannerscrollingPage">
+                  </a> <!-- BannerscrollingPage -->
+                  <span class="method-name">BannerscrollingPage</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Can not set static io.appium.java_client.android.AndroidElement field objectRepositary.BannersScrolling_OR.Bannerchange to org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4
+	at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:117)
+	at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:105)
+	at objectRepositary.BannersScrolling_OR.&lt;init&gt;(BannersScrolling_OR.java:13)
+	at vodafone.pages.BannersScrollingpage.&lt;init&gt;(BannersScrollingpage.java:19)
+	at vodafone.scripts.BannersScrollingTestCase.BannerscrollingPage(BannersScrollingTestCase.java:16)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">vodafone.scripts.launchApptestcase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Applunch">
+                  </a> <!-- Applunch -->
+                  <span class="method-name">Applunch</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: It is impossible to create a new session because &apos;createSession&apos; which takes HttpClient, InputStream and long was not found or it is not accessible
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-QRMDR1F&apos;, ip: &apos;192.168.43.208&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:195)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:209)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:130)
+	at io.appium.java_client.DefaultGenericMobileDriver.&lt;init&gt;(DefaultGenericMobileDriver.java:38)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:84)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:94)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:93)
+	at vodafone.pages.Applaunch.startAppiumServer(Applaunch.java:96)
+	at vodafone.scripts.launchApptestcase.Applunch(launchApptestcase.java:14)
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:185)
+	... 38 more
+Caused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: &apos;Command &apos;D:\\Android\\platform-tools\\adb.exe -P 5037 -s 42009305d320a4a5 shell pm install -r /data/local/tmp/appium_cache/0cc1725a60a05dbb5d0d09256f2fc6ece7e3b10f.apk&apos; timed out after 20000ms&apos;. Try to increase the 20000ms adb execution timeout represented by &apos;uiautomator2ServerInstallTimeout&apos; capability
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-QRMDR1F&apos;, ip: &apos;192.168.43.208&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: &apos;Command &apos;D:\\Android\\platform-tools\\adb.exe -P 5037 -s 42009305d320a4a5 shell pm install -r /data/local/tmp/appium_cache/0cc1725a60a05dbb5d0d09256f2fc6ece7e3b10f.apk&apos; timed out after 20000ms&apos;. Try to increase the 20000ms adb execution timeout represented by &apos;uiautomator2ServerInstallTimeout&apos; capability
+    at getResponseForW3CError (C:\Users\Apalya\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:826:9)
+    at asyncHandler (C:\Users\Apalya\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:388:37)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
+	... 43 more
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">vodafone.scripts.HelpPageTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="HelpPage">
+                  </a> <!-- HelpPage -->
+                  <span class="method-name">HelpPage</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Can not set static io.appium.java_client.android.AndroidElement field objectRepositary.HelpPage_OR.clickHambergerMenu to org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4
+	at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:117)
+	at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:105)
+	at objectRepositary.HelpPage_OR.&lt;init&gt;(HelpPage_OR.java:13)
+	at vodafone.pages.HelpPage.&lt;init&gt;(HelpPage.java:24)
+	at vodafone.scripts.HelpPageTestCase.HelpPage(HelpPageTestCase.java:16)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">vodafone.scripts.CPiconTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CPicon">
+                  </a> <!-- CPicon -->
+                  <span class="method-name">CPicon</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Can not set static io.appium.java_client.android.AndroidElement field objectRepositary.CPicons_OR.clickHambergerMenu to org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4
+	at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:117)
+	at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:105)
+	at objectRepositary.CPicons_OR.&lt;init&gt;(CPicons_OR.java:16)
+	at vodafone.pages.CPiconsPage1.&lt;init&gt;(CPiconsPage1.java:26)
+	at vodafone.scripts.CPiconTestCase.CPicon(CPiconTestCase.java:21)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">vodafone.scripts.MyWatchlistTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Mywatchlist">
+                  </a> <!-- Mywatchlist -->
+                  <span class="method-name">Mywatchlist</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Can not set static io.appium.java_client.android.AndroidElement field objectRepositary.MyWatchlistAddingRemoving_OR.clickMoviestab to org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4
+	at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:117)
+	at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:105)
+	at objectRepositary.MyWatchlistAddingRemoving_OR.&lt;init&gt;(MyWatchlistAddingRemoving_OR.java:16)
+	at vodafone.pages.MywatchlistPage.&lt;init&gt;(MywatchlistPage.java:25)
+	at vodafone.scripts.MyWatchlistTestCase.Mywatchlist(MyWatchlistTestCase.java:16)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">vodafone.scripts.ExitappTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Exitapp">
+                  </a> <!-- Exitapp -->
+                  <span class="method-name">Exitapp</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Can not set static io.appium.java_client.android.AndroidElement field objectRepositary.ExitApp_OR.Exitpopupheading to org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4
+	at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:117)
+	at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:105)
+	at objectRepositary.ExitApp_OR.&lt;init&gt;(ExitApp_OR.java:13)
+	at vodafone.pages.ExitappPage.&lt;init&gt;(ExitappPage.java:27)
+	at vodafone.scripts.ExitappTestCase.Exitapp(ExitappTestCase.java:17)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">vodafone.scripts.CLanguageTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CLanguagePage">
+                  </a> <!-- CLanguagePage -->
+                  <span class="method-name">CLanguagePage</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Can not set static io.appium.java_client.android.AndroidElement field objectRepositary.ContentLanguages_OR.HambergerMenu to org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4
+	at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:117)
+	at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:105)
+	at objectRepositary.ContentLanguages_OR.&lt;init&gt;(ContentLanguages_OR.java:15)
+	at vodafone.pages.CLanguagePage.&lt;init&gt;(CLanguagePage.java:29)
+	at vodafone.scripts.CLanguageTestCase.CLanguagePage(CLanguageTestCase.java:12)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\eclipse-workspace\Vfplay_WFH\src\test\java\testNg.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;test name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;vodafone.scripts.launchApptestcase&quot;/&gt;
+      &lt;class name=&quot;vodafone.scripts.BannersScrollingTestCase&quot;/&gt;
+      &lt;class name=&quot;vodafone.scripts.FullScreenTestCase&quot;/&gt;
+      &lt;class name=&quot;vodafone.scripts.BitratesTestCase&quot;/&gt;
+      &lt;class name=&quot;vodafone.scripts.SearchTestCase&quot;/&gt;
+      &lt;class name=&quot;vodafone.scripts.MyWatchlistTestCase&quot;/&gt;
+      &lt;class name=&quot;vodafone.scripts.DownloadTestCase&quot;/&gt;
+      &lt;class name=&quot;vodafone.scripts.MoviesFilterTestCase&quot;/&gt;
+      &lt;class name=&quot;vodafone.scripts.AppSettingsTestCase&quot;/&gt;
+      &lt;class name=&quot;vodafone.scripts.HelpPageTestCase&quot;/&gt;
+      &lt;class name=&quot;vodafone.scripts.MyDevicesTestCase&quot;/&gt;
+      &lt;class name=&quot;vodafone.scripts.CLanguageTestCase&quot;/&gt;
+      &lt;class name=&quot;vodafone.scripts.CPiconTestCase&quot;/&gt;
+      &lt;class name=&quot;vodafone.scripts.ExitappTestCase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+  &lt;test name=&quot;Test(failed)&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;vodafone.scripts.DownloadTestCase&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;DownloadPage&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- vodafone.scripts.DownloadTestCase --&gt;
+      &lt;class name=&quot;vodafone.scripts.FullScreenTestCase&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;FullScreenPage&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- vodafone.scripts.FullScreenTestCase --&gt;
+      &lt;class name=&quot;vodafone.scripts.AppSettingsTestCase&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;AppSettings&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- vodafone.scripts.AppSettingsTestCase --&gt;
+      &lt;class name=&quot;vodafone.scripts.BitratesTestCase&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;BitratePage&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- vodafone.scripts.BitratesTestCase --&gt;
+      &lt;class name=&quot;vodafone.scripts.MyDevicesTestCase&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;MyDevicesPage&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- vodafone.scripts.MyDevicesTestCase --&gt;
+      &lt;class name=&quot;vodafone.scripts.MoviesFilterTestCase&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;MovieFilter&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- vodafone.scripts.MoviesFilterTestCase --&gt;
+      &lt;class name=&quot;vodafone.scripts.SearchTestCase&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Search&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- vodafone.scripts.SearchTestCase --&gt;
+      &lt;class name=&quot;vodafone.scripts.BannersScrollingTestCase&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;BannerscrollingPage&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- vodafone.scripts.BannersScrollingTestCase --&gt;
+      &lt;class name=&quot;vodafone.scripts.launchApptestcase&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Applunch&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- vodafone.scripts.launchApptestcase --&gt;
+      &lt;class name=&quot;vodafone.scripts.HelpPageTestCase&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;HelpPage&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- vodafone.scripts.HelpPageTestCase --&gt;
+      &lt;class name=&quot;vodafone.scripts.CPiconTestCase&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;CPicon&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- vodafone.scripts.CPiconTestCase --&gt;
+      &lt;class name=&quot;vodafone.scripts.MyWatchlistTestCase&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Mywatchlist&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- vodafone.scripts.MyWatchlistTestCase --&gt;
+      &lt;class name=&quot;vodafone.scripts.ExitappTestCase&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Exitapp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- vodafone.scripts.ExitappTestCase --&gt;
+      &lt;class name=&quot;vodafone.scripts.CLanguageTestCase&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;CLanguagePage&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- vodafone.scripts.CLanguageTestCase --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test(failed) --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (14 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Test(failed) (14 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(14);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Applunch')
+data.setCell(0, 2, 'vodafone.scripts.launchApptestcase')
+data.setCell(0, 3, 35827);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'BannerscrollingPage')
+data.setCell(1, 2, 'vodafone.scripts.BannersScrollingTestCase')
+data.setCell(1, 3, 88);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'DownloadPage')
+data.setCell(2, 2, 'vodafone.scripts.DownloadTestCase')
+data.setCell(2, 3, 36);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Exitapp')
+data.setCell(3, 2, 'vodafone.scripts.ExitappTestCase')
+data.setCell(3, 3, 36);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Search')
+data.setCell(4, 2, 'vodafone.scripts.SearchTestCase')
+data.setCell(4, 3, 22);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'MovieFilter')
+data.setCell(5, 2, 'vodafone.scripts.MoviesFilterTestCase')
+data.setCell(5, 3, 5);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'AppSettings')
+data.setCell(6, 2, 'vodafone.scripts.AppSettingsTestCase')
+data.setCell(6, 3, 4);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Mywatchlist')
+data.setCell(7, 2, 'vodafone.scripts.MyWatchlistTestCase')
+data.setCell(7, 3, 2);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'HelpPage')
+data.setCell(8, 2, 'vodafone.scripts.HelpPageTestCase')
+data.setCell(8, 3, 2);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'FullScreenPage')
+data.setCell(9, 2, 'vodafone.scripts.FullScreenTestCase')
+data.setCell(9, 3, 2);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'MyDevicesPage')
+data.setCell(10, 2, 'vodafone.scripts.MyDevicesTestCase')
+data.setCell(10, 3, 2);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'BitratePage')
+data.setCell(11, 2, 'vodafone.scripts.BitratesTestCase')
+data.setCell(11, 3, 1);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'CPicon')
+data.setCell(12, 2, 'vodafone.scripts.CPiconTestCase')
+data.setCell(12, 3, 1);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'CLanguagePage')
+data.setCell(13, 2, 'vodafone.scripts.CLanguageTestCase')
+data.setCell(13, 3, 1);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 36 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">vodafone.scripts.launchApptestcase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Applunch</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">vodafone.scripts.BannersScrollingTestCase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">BannerscrollingPage</span>
+                <span class="method-start">35830 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">vodafone.scripts.FullScreenTestCase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">FullScreenPage</span>
+                <span class="method-start">35918 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">vodafone.scripts.BitratesTestCase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">BitratePage</span>
+                <span class="method-start">35921 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">vodafone.scripts.SearchTestCase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Search</span>
+                <span class="method-start">35923 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">vodafone.scripts.MyWatchlistTestCase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Mywatchlist</span>
+                <span class="method-start">35945 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">vodafone.scripts.DownloadTestCase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">DownloadPage</span>
+                <span class="method-start">35948 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">vodafone.scripts.MoviesFilterTestCase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">MovieFilter</span>
+                <span class="method-start">35986 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">vodafone.scripts.AppSettingsTestCase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">AppSettings</span>
+                <span class="method-start">35994 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">vodafone.scripts.HelpPageTestCase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">HelpPage</span>
+                <span class="method-start">36000 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">vodafone.scripts.MyDevicesTestCase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">MyDevicesPage</span>
+                <span class="method-start">36004 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">vodafone.scripts.CLanguageTestCase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">CLanguagePage</span>
+                <span class="method-start">36007 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">vodafone.scripts.CPiconTestCase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">CPicon</span>
+                <span class="method-start">36009 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">vodafone.scripts.ExitappTestCase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Exitapp</span>
+                <span class="method-start">36011 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

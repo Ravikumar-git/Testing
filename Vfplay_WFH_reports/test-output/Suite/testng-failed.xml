@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test">
+    <classes>
+      <class name="vodafone.scripts.launchApptestcase"/>
+      <class name="vodafone.scripts.BannersScrollingTestCase"/>
+      <class name="vodafone.scripts.FullScreenTestCase"/>
+      <class name="vodafone.scripts.BitratesTestCase"/>
+      <class name="vodafone.scripts.SearchTestCase"/>
+      <class name="vodafone.scripts.MyWatchlistTestCase"/>
+      <class name="vodafone.scripts.DownloadTestCase"/>
+      <class name="vodafone.scripts.MoviesFilterTestCase"/>
+      <class name="vodafone.scripts.AppSettingsTestCase"/>
+      <class name="vodafone.scripts.HelpPageTestCase"/>
+      <class name="vodafone.scripts.MyDevicesTestCase"/>
+      <class name="vodafone.scripts.CLanguageTestCase"/>
+      <class name="vodafone.scripts.CPiconTestCase"/>
+      <class name="vodafone.scripts.ExitappTestCase"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="vodafone.scripts.DownloadTestCase">
+        <methods>
+          <include name="DownloadPage"/>
+        </methods>
+      </class> <!-- vodafone.scripts.DownloadTestCase -->
+      <class name="vodafone.scripts.FullScreenTestCase">
+        <methods>
+          <include name="FullScreenPage"/>
+        </methods>
+      </class> <!-- vodafone.scripts.FullScreenTestCase -->
+      <class name="vodafone.scripts.AppSettingsTestCase">
+        <methods>
+          <include name="AppSettings"/>
+        </methods>
+      </class> <!-- vodafone.scripts.AppSettingsTestCase -->
+      <class name="vodafone.scripts.BitratesTestCase">
+        <methods>
+          <include name="BitratePage"/>
+        </methods>
+      </class> <!-- vodafone.scripts.BitratesTestCase -->
+      <class name="vodafone.scripts.MyDevicesTestCase">
+        <methods>
+          <include name="MyDevicesPage"/>
+        </methods>
+      </class> <!-- vodafone.scripts.MyDevicesTestCase -->
+      <class name="vodafone.scripts.MoviesFilterTestCase">
+        <methods>
+          <include name="MovieFilter"/>
+        </methods>
+      </class> <!-- vodafone.scripts.MoviesFilterTestCase -->
+      <class name="vodafone.scripts.SearchTestCase">
+        <methods>
+          <include name="Search"/>
+        </methods>
+      </class> <!-- vodafone.scripts.SearchTestCase -->
+      <class name="vodafone.scripts.BannersScrollingTestCase">
+        <methods>
+          <include name="BannerscrollingPage"/>
+        </methods>
+      </class> <!-- vodafone.scripts.BannersScrollingTestCase -->
+      <class name="vodafone.scripts.launchApptestcase">
+        <methods>
+          <include name="Applunch"/>
+        </methods>
+      </class> <!-- vodafone.scripts.launchApptestcase -->
+      <class name="vodafone.scripts.HelpPageTestCase">
+        <methods>
+          <include name="HelpPage"/>
+        </methods>
+      </class> <!-- vodafone.scripts.HelpPageTestCase -->
+      <class name="vodafone.scripts.CPiconTestCase">
+        <methods>
+          <include name="CPicon"/>
+        </methods>
+      </class> <!-- vodafone.scripts.CPiconTestCase -->
+      <class name="vodafone.scripts.MyWatchlistTestCase">
+        <methods>
+          <include name="Mywatchlist"/>
+        </methods>
+      </class> <!-- vodafone.scripts.MyWatchlistTestCase -->
+      <class name="vodafone.scripts.ExitappTestCase">
+        <methods>
+          <include name="Exitapp"/>
+        </methods>
+      </class> <!-- vodafone.scripts.ExitappTestCase -->
+      <class name="vodafone.scripts.CLanguageTestCase">
+        <methods>
+          <include name="CLanguagePage"/>
+        </methods>
+      </class> <!-- vodafone.scripts.CLanguageTestCase -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
